@@ -1,0 +1,105 @@
+---- Minecraft Crash Report ----
+// Don't be sad. I'll do better next time, I promise!
+
+Time: 23/7/22 11:07 PM
+Description: Mod loading error has occurred
+
+java.lang.Exception: Mod Loading has failed
+	at net.minecraftforge.fml.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:71) [?:?] {re:classloading}
+	at net.minecraftforge.fml.server.ServerModLoader.load(ServerModLoader.java:37) [?:?] {re:classloading}
+	at net.minecraft.server.Main.main(Main.java:95) [?:?] {re:classloading}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_51] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_51] {}
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_51] {}
+	at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:37) [forgeserver.jar:36.2] {}
+	at net.minecraftforge.fml.loading.FMLServerLaunchProvider$$Lambda$440/1944815218.call(Unknown Source) [forgeserver.jar:36.2] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.1.3.jar:?] {}
+	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:49) [forgeserver.jar:?] {}
+	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:46) [forgeserver.jar:?] {}
+	at net.minecraftforge.server.ServerMain.main(ServerMain.java:43) [forgeserver.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: main
+Stacktrace:
+	at net.minecraftforge.fml.CrashReportExtender.lambda$dumpModLoadingCrashReport$7(CrashReportExtender.java:74) ~[?:?] {re:classloading}
+-- MOD ferritecore --
+Details:
+	Mod File: ferritecore-5.0.1-forge.jar
+	Failure message: Mod ferritecore requires forge 41.0.98 or above
+		Currently, forge is 36.2.35
+	Mod Version: 5.0.1
+	Mod Issue URL: NOT PROVIDED
+	Exception message: MISSING EXCEPTION MESSAGE
+Stacktrace:
+	at net.minecraftforge.fml.CrashReportExtender.lambda$dumpModLoadingCrashReport$7(CrashReportExtender.java:74) ~[?:?] {re:classloading}
+	at net.minecraftforge.fml.CrashReportExtender$$Lambda$2846/2108088874.accept(Unknown Source) ~[?:?] {}
+	at java.util.ArrayList.forEach(Unknown Source) ~[?:1.8.0_51] {}
+	at net.minecraftforge.fml.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:72) [?:?] {re:classloading}
+	at net.minecraftforge.fml.server.ServerModLoader.load(ServerModLoader.java:37) [?:?] {re:classloading}
+	at net.minecraft.server.Main.main(Main.java:95) [?:?] {re:classloading}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_51] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_51] {}
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_51] {}
+	at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:37) [forgeserver.jar:36.2] {}
+	at net.minecraftforge.fml.loading.FMLServerLaunchProvider$$Lambda$440/1944815218.call(Unknown Source) [forgeserver.jar:36.2] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.1.3.jar:?] {}
+	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:49) [forgeserver.jar:?] {}
+	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:46) [forgeserver.jar:?] {}
+	at net.minecraftforge.server.ServerMain.main(ServerMain.java:43) [forgeserver.jar:?] {}
+
+
+-- MOD ferritecore --
+Details:
+	Mod File: ferritecore-5.0.1-forge.jar
+	Failure message: Mod ferritecore requires minecraft 1.19 or above, and below 1.20
+		Currently, minecraft is 1.16.5
+	Mod Version: 5.0.1
+	Mod Issue URL: NOT PROVIDED
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- System Details --
+Details:
+	Minecraft Version: 1.16.5
+	Minecraft Version ID: 1.16.5
+	Operating System: Windows 8.1 (amd64) version 6.3
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 5957385800 bytes (5681 MB) / 8222932992 bytes (7842 MB) up to 8222932992 bytes (7842 MB)
+	CPUs: 12
+	JVM Flags: 2 total; -Xmx8096M -Xms6096M
+	ModLauncher: 8.1.3+8.1.3+main-8.1.x.c94d18ec
+	ModLauncher launch target: fmlserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		/mixin-0.8.4.jar mixin PLUGINSERVICE 
+		/eventbus-4.0.0.jar eventbus PLUGINSERVICE 
+		/forgeserver.jar object_holder_definalize PLUGINSERVICE 
+		/forgeserver.jar runtime_enum_extender PLUGINSERVICE 
+		/accesstransformers-3.0.1.jar accesstransformer PLUGINSERVICE 
+		/forgeserver.jar capability_inject_definalize PLUGINSERVICE 
+		/forgeserver.jar runtimedistcleaner PLUGINSERVICE 
+		/jmt_mcmt-1.16.5-0.22.87.jar sync_fu TRANSFORMATIONSERVICE 
+		/mixin-0.8.4.jar mixin TRANSFORMATIONSERVICE 
+		/forgeserver.jar fml TRANSFORMATIONSERVICE 
+	FML: 36.2
+	Forge: net.minecraftforge:36.2.35
+	FML Language Providers: 
+		javafml@36.2
+		minecraft@1
+	Mod List: 
+		forge-1.16.5-36.2.35-server.jar                   |Minecraft                     |minecraft                     |1.16.5              |NONE      |Manifest: NOSIGNATURE
+		forge-1.16.5-36.2.35-universal.jar                |Forge                         |forge                         |36.2.35             |NONE      |Manifest: 22:af:21:d8:19:82:7f:93:94:fe:2b:ac:b7:e4:41:57:68:39:87:b1:a7:5c:c6:44:f9:25:74:21:14:f5:0d:90
