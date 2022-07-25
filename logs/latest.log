@@ -1,557 +1,115 @@
-[23Jul2022 23:07:35.887] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.35, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
-[23Jul2022 23:07:35.887] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 1.8.0_51 by Oracle Corporation
-[23Jul2022 23:07:35.887] [main/WARN] [cpw.mods.modlauncher.SecureJarHandler/]: LEGACY JDK DETECTED, SECURED JAR HANDLING DISABLED
-[23Jul2022 23:07:36.058] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[23Jul2022 23:07:36.074] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/C:/Users/USER/Desktop/Minecraft-Servers/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
-[23Jul2022 23:07:36.152] [main/INFO] [STDOUT/]: [org.jmt.mcmt.modlauncher.FastUtilTransformerService:beginScanning:277]: HAI1
-[23Jul2022 23:07:36.152] [main/INFO] [STDOUT/]: [org.jmt.mcmt.modlauncher.FastUtilTransformerService:beginScanning:309]: /
-[23Jul2022 23:07:36.152] [main/WARN] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/LOCATE]: Found /
-[23Jul2022 23:07:36.152] [main/WARN] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/LOCATE]: Found /jmt_mcmt-1.16.5-0.22.87-modcore.jar
-[23Jul2022 23:07:36.152] [main/INFO] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/LOCATE]: Found target jar: /jmt_mcmt-1.16.5-0.22.87-modcore.jar
-[23Jul2022 23:07:36.168] [main/WARN] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/LOCATE]: Found /org/
-[23Jul2022 23:07:36.168] [main/WARN] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/LOCATE]: Found /META-INF/
-[23Jul2022 23:07:36.840] [main/INFO] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/]: Sync_Fu preparing...
-[23Jul2022 23:07:36.840] [main/INFO] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/]: Prepping fu_add...
-[23Jul2022 23:07:36.840] [main/WARN] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/]: Failed to find FastUtil jar; this WILL result in more exceptions
-[23Jul2022 23:07:36.840] [main/INFO] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/]: Sync_Fu found fu...
-[23Jul2022 23:07:36.871] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.performant.coremod.mixin.Connector]
-[23Jul2022 23:07:36.887] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
-[23Jul2022 23:07:36.902] [main/INFO] [com.performant.coremod.Performant/]: Performant configs loaded
-[23Jul2022 23:07:36.965] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\USER\Desktop\Minecraft-Servers\config\performant-common.toml is not correct. Correcting
-[23Jul2022 23:07:36.965] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jul2022 23:07:36.965] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.g was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jul2022 23:07:36.965] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.g. WorldTickEventPre/Post was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jul2022 23:07:36.965] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.g. WorldTickEventPre/Post.eventLoadBalancing was corrected from null to its default, false. 
-[23Jul2022 23:07:36.965] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.g. WorldTickEventPre/Post.meanTickEvent was corrected from null to its default, 60. 
-[23Jul2022 23:07:36.965] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.g. WorldTickEventPre/Post.eventDebugOutput was corrected from null to its default, true. 
-[23Jul2022 23:07:36.980] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Entity settings was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jul2022 23:07:36.980] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Entity settings.entityDensity was corrected from null to its default, 1.0. 
-[23Jul2022 23:07:36.980] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Entity settings.adaptiveSpeed was corrected from null to its default, true. 
-[23Jul2022 23:07:36.980] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Entity settings.spawnInterval was corrected from null to its default, 10. 
-[23Jul2022 23:07:36.980] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Entity settings.fixLeash was corrected from null to its default, true. 
-[23Jul2022 23:07:36.980] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Entity settings.fastCollisions was corrected from null to its default, true. 
-[23Jul2022 23:07:36.980] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Entity settings.noLagItemPickup was corrected from null to its default, true. 
-[23Jul2022 23:07:36.980] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Entity settings.fastItemCompare was corrected from null to its default, true. 
-[23Jul2022 23:07:36.980] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Entity settings.fastPathFinding was corrected from null to its default, true. 
-[23Jul2022 23:07:36.980] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Entity settings.fastInventoryAdvancement was corrected from null to its default, true. 
-[23Jul2022 23:07:36.980] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Entity settings.multiEntities was corrected from null to its default, true. 
-[23Jul2022 23:07:36.980] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Entity settings.excludedThreadedMovement was corrected from null to its default, []. 
-[23Jul2022 23:07:36.980] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Entity settings.disableNotifyOnBlockChange was corrected from null to its default, true. 
-[23Jul2022 23:07:36.980] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Entity settings.slowArmorStands was corrected from null to its default, true. 
-[23Jul2022 23:07:36.980] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Entity settings.enableDynamicEntityRendering was corrected from null to its default, true. 
-[23Jul2022 23:07:36.980] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Entity settings.excludedRenderHidingMobs was corrected from null to its default, []. 
-[23Jul2022 23:07:36.980] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Entity settings.alwaysglow was corrected from null to its default, true. 
-[23Jul2022 23:07:36.980] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Entity settings.enableDynamicEntityUpdates was corrected from null to its default, true. 
-[23Jul2022 23:07:36.980] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Entity settings.entityUpdateDistanceReduction was corrected from null to its default, 0. 
-[23Jul2022 23:07:36.996] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Entity settings.excludedTickDistanceMobs was corrected from null to its default, []. 
-[23Jul2022 23:07:36.996] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Entity AI Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jul2022 23:07:36.996] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Entity AI Settings.goalselectorrate was corrected from null to its default, 4. 
-[23Jul2022 23:07:36.996] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Entity AI Settings.optimizeTempt was corrected from null to its default, true. 
-[23Jul2022 23:07:36.996] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Entity AI Settings.optimizeAvoid was corrected from null to its default, true. 
-[23Jul2022 23:07:36.996] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Entity AI Settings.optimizePanic was corrected from null to its default, true. 
-[23Jul2022 23:07:36.996] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Entity AI Settings.optimizeBreed was corrected from null to its default, true. 
-[23Jul2022 23:07:36.996] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Entity AI Settings.slowFindShelter was corrected from null to its default, true. 
-[23Jul2022 23:07:36.996] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Entity AI Settings.fixBlockBreakGoal was corrected from null to its default, true. 
-[23Jul2022 23:07:36.996] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.General performance improvements settings was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jul2022 23:07:36.996] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.General performance improvements settings.betterFps was corrected from null to its default, true. 
-[23Jul2022 23:07:36.996] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.General performance improvements settings.cacheRecipes was corrected from null to its default, true. 
-[23Jul2022 23:07:36.996] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.General performance improvements settings.fastSpawnRadius was corrected from null to its default, true. 
-[23Jul2022 23:07:37.012] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.General performance improvements settings.fastChunkBlocks was corrected from null to its default, true. 
-[23Jul2022 23:07:37.012] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.General performance improvements settings.blockTicks was corrected from null to its default, 3000. 
-[23Jul2022 23:07:37.012] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.General performance improvements settings.fastChunkSave was corrected from null to its default, true. 
-[23Jul2022 23:07:37.012] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.General performance improvements settings.fasterHoppers was corrected from null to its default, true. 
-[23Jul2022 23:07:37.012] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Utility settings, debugging and other was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jul2022 23:07:37.012] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Utility settings, debugging and other.forbiddenMobs was corrected from null to its default, []. 
-[23Jul2022 23:07:37.012] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Utility settings, debugging and other.logintimeout was corrected from null to its default, 2400. 
-[23Jul2022 23:07:37.012] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Utility settings, debugging and other.singlePlayerWatchDogTimeout was corrected from null to its default, 180000. 
-[23Jul2022 23:07:37.012] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Utility settings, debugging and other.maxItems was corrected from null to its default, 100. 
-[23Jul2022 23:07:37.012] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Utility settings, debugging and other.disconnectTimeout was corrected from null to its default, 60. 
-[23Jul2022 23:07:37.012] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Utility settings, debugging and other.maxSameSounds was corrected from null to its default, 10. 
-[23Jul2022 23:07:37.012] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Utility settings, debugging and other.disableConfigReload was corrected from null to its default, false. 
-[23Jul2022 23:07:37.012] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Utility settings, debugging and other.printWorldSaves was corrected from null to its default, false. 
-[23Jul2022 23:07:37.012] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.Utility settings, debugging and other.debugOptionsEnabled was corrected from null to its default, false. 
-[23Jul2022 23:07:37.027] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e.displayTooLargePackets was corrected from null to its default, true. 
-[23Jul2022 23:07:37.027] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Load balancing settings.Event load balancing settings was corrected from SimpleCommentedConfig:{meanTickEvent=60, eventDebugOutput=true, eventLoadBalancing=false} to its default, null. 
-[23Jul2022 23:07:37.027] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key displayTooLargePackets was corrected from true to its default, null. 
-[23Jul2022 23:07:37.027] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Entity settings was corrected from SimpleCommentedConfig:{spawnInterval=10, excludedTickDistanceMobs=[], fixLeash=true, multiEntities=true, disableNotifyOnBlockChange=true, slowArmorStands=true, fastCollisions=true, noLagItemPickup=true, enableDynamicEntityUpdates=true, fastItemCompare=true, entityDensity=1.0, enableDynamicEntityRendering=true, fastInventoryAdvancement=true, adaptiveSpeed=true, entityUpdateDistanceReduction=0, fastPathFinding=true} to its default, null. 
-[23Jul2022 23:07:37.027] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Entity AI Settings was corrected from SimpleCommentedConfig:{goalselectorrate=4, slowFindShelter=true, optimizePanic=true, optimizeBreed=true, optimizeTempt=true, optimizeAvoid=true, fixBlockBreakGoal=true} to its default, null. 
-[23Jul2022 23:07:37.027] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key General performance improvements settings was corrected from SimpleCommentedConfig:{fasterHoppers=true, cacheRecipes=true, fastSpawnRadius=true, blockTicks=3000, fastChunkSave=true, betterFps=true, fastChunkBlocks=true} to its default, null. 
-[23Jul2022 23:07:37.027] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Utility settings, debugging and other was corrected from SimpleCommentedConfig:{logintimeout=2400, maxItems=100, debugOptionsEnabled=false, disableConfigReload=false, printWorldSaves=false, singlePlayerWatchDogTimeout=180000, disconnectTimeout=60, maxSameSounds=10, forbiddenMobs=[]} to its default, null. 
-[23Jul2022 23:07:37.027] [main/INFO] [com.performant.coremod.Performant/]: Not enabling mixin forcom.performant.coremod.mixin.forge.BasicEventHooksMixin as config disables it.
-[23Jul2022 23:07:37.027] [main/INFO] [com.performant.coremod.Performant/]: Not enabling mixin forcom.performant.coremod.mixin.world.WorldMixin as config disables it.
-[23Jul2022 23:07:37.059] [main/INFO] [com.performant.coremod.Performant/]: Not enabling mixin forcom.performant.coremod.mixin.entity.LivingEntityUpdateEventMixin as config disables it.
-[23Jul2022 23:07:37.090] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] toParallelHashSets Transforming
-[23Jul2022 23:07:37.105] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] toParallelHashSets Transforming
-[23Jul2022 23:07:37.121] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ServerWorldOnBlockStateChange Transformer Called
-[23Jul2022 23:07:37.121] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ServerWorldOnBlockStateChange Transformer Complete
-[23Jul2022 23:07:37.121] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Entity Transformer Called
-[23Jul2022 23:07:37.137] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Entity Transformer Complete
-[23Jul2022 23:07:37.215] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] WorldGetTE Transformer Called
-[23Jul2022 23:07:37.215] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] WorldGetTE Transformer Complete
-[23Jul2022 23:07:37.230] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] TE Transformer Called
-[23Jul2022 23:07:37.230] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] TE Transformer Complete
-[23Jul2022 23:07:37.293] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ServerTickListTick Transformer Called
-[23Jul2022 23:07:37.293] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ServerTickListTick Transformer Complete
-[23Jul2022 23:07:37.293] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ServerTickListGetPending Transformer Called
-[23Jul2022 23:07:37.293] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ServerTickListGetPending Transformer Complete
-[23Jul2022 23:07:37.293] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ServerTickListAddEntry Transformer Called
-[23Jul2022 23:07:37.293] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ServerTickListAddEntry Transformer Complete
-[23Jul2022 23:07:37.309] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] SCPGetChunkPatch Transformer Called
-[23Jul2022 23:07:37.324] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] SCPGetChunkPatch Transformer Complete
-[23Jul2022 23:07:37.324] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] SCPDriveDebug Transformer Called
-[23Jul2022 23:07:37.324] [main/WARN] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Lnet/minecraft/world/chunk/IChunk;:9
-[23Jul2022 23:07:37.324] [main/WARN] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] I:8
-[23Jul2022 23:07:37.324] [main/WARN] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Lnet/minecraft/profiler/IProfiler;:5
-[23Jul2022 23:07:37.324] [main/WARN] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] J:6
-[23Jul2022 23:07:37.324] [main/WARN] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Lnet/minecraft/world/server/ChunkHolder;:8
-[23Jul2022 23:07:37.324] [main/WARN] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Ljava/util/concurrent/CompletableFuture;:9
-[23Jul2022 23:07:37.324] [main/WARN] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Lnet/minecraft/world/chunk/IChunk;:10
-[23Jul2022 23:07:37.324] [main/WARN] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Lnet/minecraft/world/server/ServerChunkProvider;:0
-[23Jul2022 23:07:37.324] [main/WARN] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] I:1
-[23Jul2022 23:07:37.324] [main/WARN] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] I:2
-[23Jul2022 23:07:37.324] [main/WARN] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Lnet/minecraft/world/chunk/ChunkStatus;:3
-[23Jul2022 23:07:37.324] [main/WARN] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Z:4
-[23Jul2022 23:07:37.324] [main/WARN] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] You are using new forge!
-[23Jul2022 23:07:37.324] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] SCPDriveDebug Transformer Complete
-[23Jul2022 23:07:37.340] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] SCPGetChunkNowPatch Transformer Called
-[23Jul2022 23:07:37.340] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] SCPGetChunkNowPatch Transformer Complete
-[23Jul2022 23:07:37.340] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ServerWorldTickChunk Transformer Called
-[23Jul2022 23:07:37.340] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ServerWorldTickChunk Transformer Complete
-[23Jul2022 23:07:37.340] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ServerWorldTickChunk116 Transformer Called
-[23Jul2022 23:07:37.340] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ServerWorldTickChunk116 Transformer Complete
-[23Jul2022 23:07:37.355] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ChunkLoadCache Transformer Called
-[23Jul2022 23:07:37.355] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ChunkLoadCache Transformer Complete
-[23Jul2022 23:07:37.637] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] UtilExecutorListingHack Transformer Called
-[23Jul2022 23:07:37.637] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] UtilExecutorListingHack Transformer Complete
-[23Jul2022 23:07:37.699] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] OnCollisionPATCH Transformer Called
-[23Jul2022 23:07:37.699] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] OnCollisionPATCH Transformer Complete
-[23Jul2022 23:07:37.715] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] WorldGetTE Transformer Called
-[23Jul2022 23:07:37.715] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] WorldGetTE Transformer Complete
-[23Jul2022 23:07:37.715] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] TE Transformer Called
-[23Jul2022 23:07:37.715] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] TE Transformer Complete
-[23Jul2022 23:07:37.965] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] OnCollisionPATCH Transformer Called
-[23Jul2022 23:07:37.965] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] OnCollisionPATCH Transformer Complete
-[23Jul2022 23:07:38.106] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] WorldGetTE Transformer Called
-[23Jul2022 23:07:38.106] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] WorldGetTE Transformer Complete
-[23Jul2022 23:07:38.106] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] TE Transformer Called
-[23Jul2022 23:07:38.106] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] TE Transformer Complete
-[23Jul2022 23:07:38.106] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] toParallelHashSets Transforming
-[23Jul2022 23:07:38.106] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] toParallelHashSets Transforming
-[23Jul2022 23:07:38.121] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ServerWorldOnBlockStateChange Transformer Called
-[23Jul2022 23:07:38.121] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ServerWorldOnBlockStateChange Transformer Complete
-[23Jul2022 23:07:38.121] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Entity Transformer Called
-[23Jul2022 23:07:38.121] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Entity Transformer Complete
-[23Jul2022 23:07:38.168] [main/INFO] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu it/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap Transformer Called
-[23Jul2022 23:07:38.168] [main/INFO] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu it/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap Transformer Complete
-[23Jul2022 23:07:38.168] [main/WARN] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu: you are missing it/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap$ValueIterator this may bite you later
-[23Jul2022 23:07:38.184] [main/WARN] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu: you are missing it/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap$KeySet this may bite you later
-[23Jul2022 23:07:38.184] [main/WARN] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu: you are missing it/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap$KeyIterator this may bite you later
-[23Jul2022 23:07:38.184] [main/WARN] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu: you are missing it/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap$MapEntrySet this may bite you later
-[23Jul2022 23:07:38.184] [main/WARN] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu: you are missing it/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap$FastEntryIterator this may bite you later
-[23Jul2022 23:07:38.184] [main/WARN] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu: you are missing it/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap$EntryIterator this may bite you later
-[23Jul2022 23:07:38.184] [main/WARN] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu: you are missing it/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap$MapIterator this may bite you later
-[23Jul2022 23:07:38.184] [main/WARN] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu: you are missing it/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap$MapEntry this may bite you later
-[23Jul2022 23:07:38.184] [main/WARN] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu: you are missing it/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap$1 this may bite you later
-[23Jul2022 23:07:38.184] [main/WARN] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu: you are missing it/unimi/dsi/fastutil/longs/Long2ObjectMap$FastEntrySet this may bite you later
-[23Jul2022 23:07:38.184] [main/INFO] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu it/unimi/dsi/fastutil/longs/Long2ObjectMap$FastEntrySet Transformer Called
-[23Jul2022 23:07:38.184] [main/ERROR] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: Inner class faliure; parent not found 
-[23Jul2022 23:07:38.293] [main/INFO] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu it/unimi/dsi/fastutil/ints/Int2ObjectOpenHashMap Transformer Called
-[23Jul2022 23:07:38.293] [main/INFO] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu it/unimi/dsi/fastutil/ints/Int2ObjectOpenHashMap Transformer Complete
-[23Jul2022 23:07:38.293] [main/WARN] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu: you are missing it/unimi/dsi/fastutil/ints/Int2ObjectOpenHashMap$ValueIterator this may bite you later
-[23Jul2022 23:07:38.293] [main/WARN] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu: you are missing it/unimi/dsi/fastutil/ints/Int2ObjectOpenHashMap$KeySet this may bite you later
-[23Jul2022 23:07:38.293] [main/WARN] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu: you are missing it/unimi/dsi/fastutil/ints/Int2ObjectOpenHashMap$KeyIterator this may bite you later
-[23Jul2022 23:07:38.293] [main/WARN] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu: you are missing it/unimi/dsi/fastutil/ints/Int2ObjectOpenHashMap$MapEntrySet this may bite you later
-[23Jul2022 23:07:38.293] [main/WARN] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu: you are missing it/unimi/dsi/fastutil/ints/Int2ObjectOpenHashMap$FastEntryIterator this may bite you later
-[23Jul2022 23:07:38.293] [main/WARN] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu: you are missing it/unimi/dsi/fastutil/ints/Int2ObjectOpenHashMap$EntryIterator this may bite you later
-[23Jul2022 23:07:38.293] [main/WARN] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu: you are missing it/unimi/dsi/fastutil/ints/Int2ObjectOpenHashMap$MapIterator this may bite you later
-[23Jul2022 23:07:38.293] [main/WARN] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu: you are missing it/unimi/dsi/fastutil/ints/Int2ObjectOpenHashMap$MapEntry this may bite you later
-[23Jul2022 23:07:38.293] [main/WARN] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu: you are missing it/unimi/dsi/fastutil/ints/Int2ObjectOpenHashMap$1 this may bite you later
-[23Jul2022 23:07:38.309] [main/WARN] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu: you are missing it/unimi/dsi/fastutil/ints/Int2ObjectMap$FastEntrySet this may bite you later
-[23Jul2022 23:07:39.418] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] SCPGetChunkPatch Transformer Called
-[23Jul2022 23:07:39.418] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] SCPGetChunkPatch Transformer Complete
-[23Jul2022 23:07:39.418] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] SCPDriveDebug Transformer Called
-[23Jul2022 23:07:39.418] [main/WARN] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Lnet/minecraft/world/chunk/IChunk;:9
-[23Jul2022 23:07:39.418] [main/WARN] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] I:8
-[23Jul2022 23:07:39.418] [main/WARN] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Lnet/minecraft/profiler/IProfiler;:5
-[23Jul2022 23:07:39.434] [main/WARN] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] J:6
-[23Jul2022 23:07:39.434] [main/WARN] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Lnet/minecraft/world/server/ChunkHolder;:8
-[23Jul2022 23:07:39.434] [main/WARN] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Ljava/util/concurrent/CompletableFuture;:9
-[23Jul2022 23:07:39.434] [main/WARN] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Lnet/minecraft/world/chunk/IChunk;:10
-[23Jul2022 23:07:39.434] [main/WARN] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Lnet/minecraft/world/server/ServerChunkProvider;:0
-[23Jul2022 23:07:39.434] [main/WARN] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] I:1
-[23Jul2022 23:07:39.434] [main/WARN] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] I:2
-[23Jul2022 23:07:39.434] [main/WARN] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Lnet/minecraft/world/chunk/ChunkStatus;:3
-[23Jul2022 23:07:39.434] [main/WARN] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Z:4
-[23Jul2022 23:07:39.434] [main/WARN] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] You are using new forge!
-[23Jul2022 23:07:39.434] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] SCPDriveDebug Transformer Complete
-[23Jul2022 23:07:39.434] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] SCPGetChunkNowPatch Transformer Called
-[23Jul2022 23:07:39.434] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] SCPGetChunkNowPatch Transformer Complete
-[23Jul2022 23:07:39.434] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ServerWorldTickChunk Transformer Called
-[23Jul2022 23:07:39.434] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ServerWorldTickChunk Transformer Complete
-[23Jul2022 23:07:39.434] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ServerWorldTickChunk116 Transformer Called
-[23Jul2022 23:07:39.434] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ServerWorldTickChunk116 Transformer Complete
-[23Jul2022 23:07:39.434] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ChunkLoadCache Transformer Called
-[23Jul2022 23:07:39.434] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ChunkLoadCache Transformer Complete
-[23Jul2022 23:07:39.449] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] TicketManagerTickets Transformer Called
-[23Jul2022 23:07:39.449] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] TicketManagerTickets Transformer Complete
-[23Jul2022 23:07:39.449] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] TicketManagerCollections Transformer Called
-[23Jul2022 23:07:39.449] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] TicketManagerCollections Hit Init
-[23Jul2022 23:07:39.449] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] toParallelHashSets Transforming
-[23Jul2022 23:07:39.449] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] TicketManagerCollections Transformer Complete
-[23Jul2022 23:07:40.137] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] TemplateManagerHashMap Transformer Called
-[23Jul2022 23:07:40.137] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] toParallelHashMaps Transforming
-[23Jul2022 23:07:40.137] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] TemplateManagerHashMap Transformer Complete
-[23Jul2022 23:07:40.484] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] InitialChunkCountBypass Transformer Called
-[23Jul2022 23:07:40.485] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] InitialChunkCountBypass Transformer Complete
-[23Jul2022 23:07:40.498] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] World Transformer Called
-[23Jul2022 23:07:40.509] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: YOU ARE USING 1.16 - Says coremods (if this is wrong something borked)
-[23Jul2022 23:07:40.511] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] FOUND TARGET INSNS
-[23Jul2022 23:07:40.514] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] World Transformer Complete
-[23Jul2022 23:07:40.522] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ServerExecutionThread Transformer Called
-[23Jul2022 23:07:40.529] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_240784_a_ (Ljava/util/function/Function;)Lnet/minecraft/server/MinecraftServer;
-[23Jul2022 23:07:40.530] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method <init> (Ljava/lang/Thread;Lnet/minecraft/util/registry/DynamicRegistries$Impl;Lnet/minecraft/world/storage/SaveFormat$LevelSave;Lnet/minecraft/world/storage/IServerConfiguration;Lnet/minecraft/resources/ResourcePackList;Ljava/net/Proxy;Lcom/mojang/datafixers/DataFixer;Lnet/minecraft/resources/DataPackRegistries;Lcom/mojang/authlib/minecraft/MinecraftSessionService;Lcom/mojang/authlib/GameProfileRepository;Lnet/minecraft/server/management/PlayerProfileCache;Lnet/minecraft/world/chunk/listener/IChunkStatusListenerFactory;)V
-[23Jul2022 23:07:40.530] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_213204_a (Lnet/minecraft/world/storage/DimensionSavedDataManager;)V
-[23Jul2022 23:07:40.533] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71197_b ()Z
-[23Jul2022 23:07:40.534] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_240777_a_ (Lnet/minecraft/world/storage/SaveFormat$LevelSave;)V
-[23Jul2022 23:07:40.534] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_240800_l__ ()V
-[23Jul2022 23:07:40.534] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_230543_p_ ()V
-[23Jul2022 23:07:40.535] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_240787_a_ (Lnet/minecraft/world/chunk/listener/IChunkStatusListener;)V
-[23Jul2022 23:07:40.535] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_240786_a_ (Lnet/minecraft/world/server/ServerWorld;Lnet/minecraft/world/storage/IServerWorldInfo;ZZZ)V
-[23Jul2022 23:07:40.536] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_240778_a_ (Lnet/minecraft/world/storage/IServerConfiguration;)V
-[23Jul2022 23:07:40.536] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_213186_a (Lnet/minecraft/world/chunk/listener/IChunkStatusListener;)V
-[23Jul2022 23:07:40.537] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_175584_a ()V
-[23Jul2022 23:07:40.537] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71265_f ()Lnet/minecraft/world/GameType;
-[23Jul2022 23:07:40.537] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71199_h ()Z
-[23Jul2022 23:07:40.538] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_110455_j ()I
-[23Jul2022 23:07:40.538] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_223707_k ()I
-[23Jul2022 23:07:40.539] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_195569_l ()Z
-[23Jul2022 23:07:40.539] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_213211_a (ZZZ)Z
-[23Jul2022 23:07:40.539] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method close ()V
-[23Jul2022 23:07:40.540] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71260_j ()V
-[23Jul2022 23:07:40.540] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71211_k ()Ljava/lang/String;
-[23Jul2022 23:07:40.541] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71189_e (Ljava/lang/String;)V
-[23Jul2022 23:07:40.541] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71278_l ()Z
-[23Jul2022 23:07:40.541] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71263_m (Z)V
-[23Jul2022 23:07:40.542] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_240802_v_ ()V
-[23Jul2022 23:07:40.542] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_212379_aT ()Z
-[23Jul2022 23:07:40.542] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_213202_o ()V
-[23Jul2022 23:07:40.543] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_212875_d_ (Ljava/lang/Runnable;)Lnet/minecraft/util/concurrent/TickDelayedTask;
-[23Jul2022 23:07:40.543] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_212874_c_ (Lnet/minecraft/util/concurrent/TickDelayedTask;)Z
-[23Jul2022 23:07:40.544] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_213168_p ()Z
-[23Jul2022 23:07:40.546] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_213205_aW ()Z
-[23Jul2022 23:07:40.548] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_213166_h (Lnet/minecraft/util/concurrent/TickDelayedTask;)V
-[23Jul2022 23:07:40.549] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_184107_a (Lnet/minecraft/network/ServerStatusResponse;)V
-[23Jul2022 23:07:40.549] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_184106_y ()Z
-[23Jul2022 23:07:40.550] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_184109_z ()Ljava/io/File;
-[23Jul2022 23:07:40.550] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71238_n ()Ljava/io/File;
-[23Jul2022 23:07:40.551] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71228_a (Lnet/minecraft/crash/CrashReport;)V
-[23Jul2022 23:07:40.551] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71240_o ()V
-[23Jul2022 23:07:40.551] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71217_p (Ljava/util/function/BooleanSupplier;)V
-[23Jul2022 23:07:40.552] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71190_q (Ljava/util/function/BooleanSupplier;)V
-[23Jul2022 23:07:40.552] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71255_r ()Z
-[23Jul2022 23:07:40.553] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_82010_a (Ljava/lang/Runnable;)V
-[23Jul2022 23:07:40.553] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_213208_c (Ljava/lang/String;)V
-[23Jul2022 23:07:40.553] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_213201_w ()Z
-[23Jul2022 23:07:40.554] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71209_f (Ljava/lang/String;)Ljava/io/File;
-[23Jul2022 23:07:40.554] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_241755_D_ ()Lnet/minecraft/world/server/ServerWorld;
-[23Jul2022 23:07:40.554] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71218_a (Lnet/minecraft/util/RegistryKey;)Lnet/minecraft/world/server/ServerWorld;
-[23Jul2022 23:07:40.555] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_240770_D_ ()Ljava/util/Set;
-[23Jul2022 23:07:40.555] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_212370_w ()Ljava/lang/Iterable;
-[23Jul2022 23:07:40.555] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71249_w ()Ljava/lang/String;
-[23Jul2022 23:07:40.555] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71233_x ()I
-[23Jul2022 23:07:40.556] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71275_y ()I
-[23Jul2022 23:07:40.556] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71213_z ()[Ljava/lang/String;
-[23Jul2022 23:07:40.556] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method getServerModName ()Ljava/lang/String;
-[23Jul2022 23:07:40.557] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71230_b (Lnet/minecraft/crash/CrashReport;)Lnet/minecraft/crash/CrashReport;
-[23Jul2022 23:07:40.557] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_230045_q_ ()Ljava/util/Optional;
-[23Jul2022 23:07:40.558] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_145747_a (Lnet/minecraft/util/text/ITextComponent;Ljava/util/UUID;)V
-[23Jul2022 23:07:40.558] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71250_E ()Ljava/security/KeyPair;
-[23Jul2022 23:07:40.558] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71215_F ()I
-[23Jul2022 23:07:40.559] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71208_b (I)V
-[23Jul2022 23:07:40.559] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71214_G ()Ljava/lang/String;
-[23Jul2022 23:07:40.560] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71224_l (Ljava/lang/String;)V
-[23Jul2022 23:07:40.562] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71264_H ()Z
-[23Jul2022 23:07:40.563] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_244801_P ()V
-[23Jul2022 23:07:40.564] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_147139_a (Lnet/minecraft/world/Difficulty;Z)V
-[23Jul2022 23:07:40.564] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_230512_b_ (I)I
-[23Jul2022 23:07:40.564] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_240794_aZ_ ()V
-[23Jul2022 23:07:40.565] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_213209_d (Z)V
-[23Jul2022 23:07:40.567] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_213189_a (Lnet/minecraft/entity/player/ServerPlayerEntity;)V
-[23Jul2022 23:07:40.567] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_230536_N_ ()Z
-[23Jul2022 23:07:40.567] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71242_L ()Z
-[23Jul2022 23:07:40.568] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71204_b (Z)V
-[23Jul2022 23:07:40.568] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_147133_T ()Ljava/lang/String;
-[23Jul2022 23:07:40.568] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_175581_ab ()Ljava/lang/String;
-[23Jul2022 23:07:40.569] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_180507_a_ (Ljava/lang/String;Ljava/lang/String;)V
-[23Jul2022 23:07:40.569] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_70000_a (Lnet/minecraft/profiler/Snooper;)V
-[23Jul2022 23:07:40.569] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71262_S ()Z
-[23Jul2022 23:07:40.570] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_241871_k ()I
-[23Jul2022 23:07:40.570] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71266_T ()Z
-[23Jul2022 23:07:40.570] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71229_d (Z)V
-[23Jul2022 23:07:40.571] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_190518_ac ()Z
-[23Jul2022 23:07:40.571] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_190517_e (Z)V
-[23Jul2022 23:07:40.571] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_230537_U_ ()Z
-[23Jul2022 23:07:40.572] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_230538_V_ ()Z
-[23Jul2022 23:07:40.572] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_181035_ah ()Z
-[23Jul2022 23:07:40.573] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71219_W ()Z
-[23Jul2022 23:07:40.573] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71188_g (Z)V
-[23Jul2022 23:07:40.573] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71231_X ()Z
-[23Jul2022 23:07:40.574] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71245_h (Z)V
-[23Jul2022 23:07:40.574] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_82356_Z ()Z
-[23Jul2022 23:07:40.574] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71273_Y ()Ljava/lang/String;
-[23Jul2022 23:07:40.575] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71205_p (Ljava/lang/String;)V
-[23Jul2022 23:07:40.575] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71207_Z ()I
-[23Jul2022 23:07:40.575] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71191_d (I)V
-[23Jul2022 23:07:40.578] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71241_aa ()Z
-[23Jul2022 23:07:40.579] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_184103_al ()Lnet/minecraft/server/management/PlayerList;
-[23Jul2022 23:07:40.580] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_184105_a (Lnet/minecraft/server/management/PlayerList;)V
-[23Jul2022 23:07:40.580] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71344_c ()Z
-[23Jul2022 23:07:40.580] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71235_a (Lnet/minecraft/world/GameType;)V
-[23Jul2022 23:07:40.581] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_147137_ag ()Lnet/minecraft/network/NetworkSystem;
-[23Jul2022 23:07:40.582] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71200_ad ()Z
-[23Jul2022 23:07:40.582] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71279_ae ()Z
-[23Jul2022 23:07:40.584] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_195565_a (Lnet/minecraft/world/GameType;ZI)Z
-[23Jul2022 23:07:40.584] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_71259_af ()I
-[23Jul2022 23:07:40.584] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_80003_ah ()Lnet/minecraft/profiler/Snooper;
-[23Jul2022 23:07:40.585] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_82357_ak ()I
-[23Jul2022 23:07:40.585] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_175579_a (Lnet/minecraft/world/server/ServerWorld;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/player/PlayerEntity;)Z
-[23Jul2022 23:07:40.585] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_104055_i (Z)V
-[23Jul2022 23:07:40.586] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_104056_am ()Z
-[23Jul2022 23:07:40.586] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_230541_aj_ ()Z
-[23Jul2022 23:07:40.622] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_143007_ar ()I
-[23Jul2022 23:07:40.622] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_143006_e (I)V
-[23Jul2022 23:07:40.624] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_147130_as ()Lcom/mojang/authlib/minecraft/MinecraftSessionService;
-[23Jul2022 23:07:40.625] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_152359_aw ()Lcom/mojang/authlib/GameProfileRepository;
-[23Jul2022 23:07:40.626] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_152358_ax ()Lnet/minecraft/server/management/PlayerProfileCache;
-[23Jul2022 23:07:40.626] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_147134_at ()Lnet/minecraft/network/ServerStatusResponse;
-[23Jul2022 23:07:40.627] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_147132_au ()V
-[23Jul2022 23:07:40.627] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_175580_aG ()I
-[23Jul2022 23:07:40.627] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_213164_aw ()Z
-[23Jul2022 23:07:40.628] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_213170_ax ()Ljava/lang/Thread;
-[23Jul2022 23:07:40.628] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_175577_aI ()I
-[23Jul2022 23:07:40.628] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_211150_az ()J
-[23Jul2022 23:07:40.629] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_195563_aC ()Lcom/mojang/datafixers/DataFixer;
-[23Jul2022 23:07:40.629] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_184108_a (Lnet/minecraft/world/server/ServerWorld;)I
-[23Jul2022 23:07:40.629] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_191949_aK ()Lnet/minecraft/advancements/AdvancementManager;
-[23Jul2022 23:07:40.630] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_193030_aL ()Lnet/minecraft/advancements/FunctionManager;
-[23Jul2022 23:07:40.630] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_240780_a_ (Ljava/util/Collection;)Ljava/util/concurrent/CompletableFuture;
-[23Jul2022 23:07:40.630] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_240772_a_ (Lnet/minecraft/resources/ResourcePackList;Lnet/minecraft/util/datafix/codec/DatapackCodec;Z)Lnet/minecraft/util/datafix/codec/DatapackCodec;
-[23Jul2022 23:07:40.631] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_240771_a_ (Lnet/minecraft/resources/ResourcePackList;)Lnet/minecraft/util/datafix/codec/DatapackCodec;
-[23Jul2022 23:07:40.631] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_205743_a (Lnet/minecraft/command/CommandSource;)V
-[23Jul2022 23:07:40.632] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_195561_aH ()Lnet/minecraft/resources/ResourcePackList;
-[23Jul2022 23:07:40.634] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_195571_aL ()Lnet/minecraft/command/Commands;
-[23Jul2022 23:07:40.634] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_195573_aM ()Lnet/minecraft/command/CommandSource;
-[23Jul2022 23:07:40.634] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_195039_a ()Z
-[23Jul2022 23:07:40.635] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_195040_b ()Z
-[23Jul2022 23:07:40.635] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_199529_aN ()Lnet/minecraft/item/crafting/RecipeManager;
-[23Jul2022 23:07:40.635] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_244266_aF ()Lnet/minecraft/tags/ITagCollectionSupplier;
-[23Jul2022 23:07:40.636] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_200251_aP ()Lnet/minecraft/scoreboard/ServerScoreboard;
-[23Jul2022 23:07:40.636] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_229735_aN_ ()Lnet/minecraft/world/storage/CommandStorage;
-[23Jul2022 23:07:40.636] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_200249_aQ ()Lnet/minecraft/loot/LootTableManager;
-[23Jul2022 23:07:40.637] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_229736_aP_ ()Lnet/minecraft/loot/LootPredicateManager;
-[23Jul2022 23:07:40.637] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_200252_aR ()Lnet/minecraft/world/GameRules;
-[23Jul2022 23:07:40.637] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_201300_aS ()Lnet/minecraft/server/CustomServerBossInfoManager;
-[23Jul2022 23:07:40.638] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_205744_aT ()Z
-[23Jul2022 23:07:40.638] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_205741_k (Z)V
-[23Jul2022 23:07:40.638] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_211149_aT ()F
-[23Jul2022 23:07:40.639] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_211833_a (Lcom/mojang/authlib/GameProfile;)I
-[23Jul2022 23:07:40.639] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_213210_aR ()Lnet/minecraft/util/FrameTimer;
-[23Jul2022 23:07:40.639] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_213185_aS ()Lnet/minecraft/profiler/IProfiler;
-[23Jul2022 23:07:40.640] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_213199_b (Lcom/mojang/authlib/GameProfile;)Z
-[23Jul2022 23:07:40.642] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method getTickTime (Lnet/minecraft/util/RegistryKey;)[J
-[23Jul2022 23:07:40.642] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method forgeGetWorldMap ()Ljava/util/Map;
-[23Jul2022 23:07:40.643] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method markWorldsDirty ()V
-[23Jul2022 23:07:40.644] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method getWorldArray ()[Lnet/minecraft/world/server/ServerWorld;
-[23Jul2022 23:07:40.644] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_223711_a (Ljava/nio/file/Path;)V
-[23Jul2022 23:07:40.644] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_223710_b (Ljava/nio/file/Path;)V
-[23Jul2022 23:07:40.645] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_223709_c (Ljava/nio/file/Path;)V
-[23Jul2022 23:07:40.645] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_223708_d (Ljava/nio/file/Path;)V
-[23Jul2022 23:07:40.645] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_223706_e (Ljava/nio/file/Path;)V
-[23Jul2022 23:07:40.646] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_223712_f (Ljava/nio/file/Path;)V
-[23Jul2022 23:07:40.646] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_240773_a_ (Lnet/minecraft/profiler/LongTickDetector;)V
-[23Jul2022 23:07:40.646] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_240795_b_ (Lnet/minecraft/profiler/LongTickDetector;)V
-[23Jul2022 23:07:40.647] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_240789_aP_ ()Z
-[23Jul2022 23:07:40.647] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_240790_aQ_ ()V
-[23Jul2022 23:07:40.647] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_240791_aR_ ()Lnet/minecraft/profiler/IProfileResult;
-[23Jul2022 23:07:40.648] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_240776_a_ (Lnet/minecraft/world/storage/FolderName;)Ljava/nio/file/Path;
-[23Jul2022 23:07:40.648] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_230540_aS_ ()Z
-[23Jul2022 23:07:40.648] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_240792_aT_ ()Lnet/minecraft/world/gen/feature/template/TemplateManager;
-[23Jul2022 23:07:40.650] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_240793_aU_ ()Lnet/minecraft/world/storage/IServerConfiguration;
-[23Jul2022 23:07:40.651] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method getDataPackRegistries ()Lnet/minecraft/resources/DataPackRegistries;
-[23Jul2022 23:07:40.651] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_244267_aX ()Lnet/minecraft/util/registry/DynamicRegistries;
-[23Jul2022 23:07:40.651] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_244435_a (Lnet/minecraft/entity/player/ServerPlayerEntity;)Lnet/minecraft/util/text/filter/IChatFilter;
-[23Jul2022 23:07:40.652] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_213166_h (Ljava/lang/Runnable;)V
-[23Jul2022 23:07:40.652] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_212874_c_ (Ljava/lang/Runnable;)Z
-[23Jul2022 23:07:40.652] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_212875_d_ (Ljava/lang/Runnable;)Ljava/lang/Runnable;
-[23Jul2022 23:07:40.653] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method lambda$getWorldArray$13 (I)[Lnet/minecraft/world/server/ServerWorld;
-[23Jul2022 23:07:40.653] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method lambda$getSelectedPacks$12 (Ljava/util/Collection;Ljava/lang/String;)Z
-[23Jul2022 23:07:40.654] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method lambda$reloadResources$11 (Ljava/util/Collection;Lnet/minecraft/resources/DataPackRegistries;)V
-[23Jul2022 23:07:40.654] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method lambda$reloadResources$10 (Lcom/google/common/collect/ImmutableList;)Ljava/util/concurrent/CompletionStage;
-[23Jul2022 23:07:40.654] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method lambda$reloadResources$9 (Ljava/util/Collection;)Lcom/google/common/collect/ImmutableList;
-[23Jul2022 23:07:40.655] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method lambda$fillReport$8 ()Ljava/lang/String;
-[23Jul2022 23:07:40.655] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_240798_ba_ ()Ljava/lang/String;
-[23Jul2022 23:07:40.655] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_212373_aU ()Ljava/lang/String;
-[23Jul2022 23:07:40.656] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method lambda$tickChildren$5 (Lnet/minecraft/util/RegistryKey;)[J
-[23Jul2022 23:07:40.658] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_244268_b (Lnet/minecraft/world/server/ServerWorld;)Ljava/lang/String;
-[23Jul2022 23:07:40.660] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_244271_bf ()Z
-[23Jul2022 23:07:40.660] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_244265_a (Lnet/minecraft/world/biome/Biome;)Z
-[23Jul2022 23:07:40.660] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_240779_a_ (Ljava/lang/Thread;Ljava/lang/Throwable;)V
-[23Jul2022 23:07:40.661] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method func_240783_a_ (Ljava/util/concurrent/atomic/AtomicReference;)V
-[23Jul2022 23:07:40.661] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method access$000 ()Lorg/apache/logging/log4j/Logger;
-[23Jul2022 23:07:40.661] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] Saw method <clinit> ()V
-[23Jul2022 23:07:40.667] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ServerExecutionThread Transformer Complete
-[23Jul2022 23:07:40.674] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ThreadTaskExecutorCollections Transformer Called
-[23Jul2022 23:07:40.675] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ThreadTaskExecutorCollections Hit Init
-[23Jul2022 23:07:40.676] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ThreadTaskExecutorCollections Transformer Complete
-[23Jul2022 23:07:40.687] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ThreadTaskExecutorCollections Transformer Called
-[23Jul2022 23:07:40.688] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ThreadTaskExecutorCollections Hit Init
-[23Jul2022 23:07:40.690] [main/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ThreadTaskExecutorCollections Transformer Complete
-[23Jul2022 23:07:40.857] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.35, for MC 1.16.5 with MCP 20210115.111550
-[23Jul2022 23:07:40.857] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.35 Initialized
-[23Jul2022 23:07:41.015] [main/WARN] [mixin/]: @Final field field_187234_c:Ljava/util/Map; in performant.mixins.json:entity.EntityDataManagerMixin should be final
-[23Jul2022 23:07:41.066] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\USER\Desktop\Minecraft-Servers\config\jmt_mcmt-common.toml is not correct. Correcting
-[23Jul2022 23:07:41.067] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jul2022 23:07:41.069] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.disabled was corrected from null to its default, false. 
-[23Jul2022 23:07:41.069] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.parallelism was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jul2022 23:07:41.070] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.parallelism.paraMax was corrected from null to its default, -1. 
-[23Jul2022 23:07:41.070] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.parallelism.paraMaxMode was corrected from null to its default, Standard. 
-[23Jul2022 23:07:41.071] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jul2022 23:07:41.072] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.disableWorld was corrected from null to its default, false. 
-[23Jul2022 23:07:41.072] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.disableWorldPostTick was corrected from null to its default, false. 
-[23Jul2022 23:07:41.072] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.chunk was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jul2022 23:07:41.072] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key world.chunk.disableMultiChunk was corrected from null to its default, false. 
-[23Jul2022 23:07:41.073] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key entity was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jul2022 23:07:41.074] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key entity.disableEntity was corrected from null to its default, false. 
-[23Jul2022 23:07:41.075] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key te was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jul2022 23:07:41.076] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key te.disableTileEntity was corrected from null to its default, false. 
-[23Jul2022 23:07:41.077] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key te.chunkLockModded was corrected from null to its default, true. 
-[23Jul2022 23:07:41.077] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key te.teWhiteList was corrected from null to its default, []. 
-[23Jul2022 23:07:41.078] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key te.teBlackList was corrected from null to its default, []. 
-[23Jul2022 23:07:41.078] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jul2022 23:07:41.079] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.disableEnvironment was corrected from null to its default, false. 
-[23Jul2022 23:07:41.079] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.disableChunkProvider was corrected from null to its default, false. 
-[23Jul2022 23:07:41.080] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key debug was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jul2022 23:07:41.081] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key debug.load-forcing was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jul2022 23:07:41.081] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key debug.load-forcing.enableChunkTimeout was corrected from null to its default, false. 
-[23Jul2022 23:07:41.082] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key debug.load-forcing.enableTimeoutReload was corrected from null to its default, false. 
-[23Jul2022 23:07:41.082] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key debug.load-forcing.enableBlankReturn was corrected from null to its default, false. 
-[23Jul2022 23:07:41.082] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key debug.load-forcing.timeoutCount was corrected from null to its default, 5000. 
-[23Jul2022 23:07:41.083] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key debug.ops-tracing was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jul2022 23:07:41.083] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key debug.ops-tracing.opsTracing was corrected from null to its default, false. 
-[23Jul2022 23:07:41.083] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key debug.logcap was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jul2022 23:07:41.085] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key debug.logcap.logcap was corrected from null to its default, 720000. 
-[23Jul2022 23:07:41.088] [modloading-worker-9/INFO] [net.minecraft.world.biome.Biome/]: Performant2 loaded, lag begone!
-[23Jul2022 23:07:41.114] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[23Jul2022 23:07:41.136] [modloading-worker-6/INFO] [org.jmt.mcmt.MCMT/]: Got IMC []
-[23Jul2022 23:07:42.197] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[23Jul2022 23:07:42.340] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 36.2.35 Target: 36.2.39
-[23Jul2022 23:07:42.340] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jmt_mcmt] Starting version check at https://gitcdn.link/repo/jediminer543/JMT-MCMT/master/etc/update.json
-[23Jul2022 23:07:42.597] [main/INFO] [org.jmt.mcmt.MCMT/]: MCMT Registering Commands
-[23Jul2022 23:07:42.664] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[23Jul2022 23:07:42.666] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[23Jul2022 23:07:42.667] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[23Jul2022 23:07:42.668] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[23Jul2022 23:07:42.678] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[23Jul2022 23:07:42.689] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.35-universal.jar, performant-1.16.2-5-3.98m.jar, jmt_mcmt-1.16.5-0.22.87-modcore.jar
-[23Jul2022 23:07:43.070] [Worker-Main-14/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
-[23Jul2022 23:07:43.534] [Worker-Main-14/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 advancements
-[23Jul2022 23:07:44.351] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jmt_mcmt] Found status: AHEAD Current: 0.22.87 Target: null
-[23Jul2022 23:07:44.442] [main/INFO] [org.jmt.mcmt.asmdest.ConcurrentCollections/]: Concurrent hash map created
-[23Jul2022 23:07:44.443] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
-[23Jul2022 23:07:44.444] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[23Jul2022 23:07:44.445] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[23Jul2022 23:07:44.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[23Jul2022 23:07:44.513] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[23Jul2022 23:07:44.522] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
-[23Jul2022 23:07:44.742] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[23Jul2022 23:07:44.743] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[23Jul2022 23:07:44.744] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[23Jul2022 23:07:44.744] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[23Jul2022 23:07:44.788] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[23Jul2022 23:07:44.803] [Server thread/INFO] [org.jmt.mcmt.asmdest.ConcurrentCollections/]: Concurrent "array" deque created
-[23Jul2022 23:07:44.805] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ServerTickListTick Transformer Called
-[23Jul2022 23:07:44.806] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ServerTickListTick Transformer Complete
-[23Jul2022 23:07:44.810] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ServerTickListGetPending Transformer Called
-[23Jul2022 23:07:44.810] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ServerTickListGetPending Transformer Complete
-[23Jul2022 23:07:44.811] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ServerTickListAddEntry Transformer Called
-[23Jul2022 23:07:44.811] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] ServerTickListAddEntry Transformer Complete
-[23Jul2022 23:07:44.822] [Server thread/INFO] [org.jmt.mcmt.asmdest.ConcurrentCollections/]: Concurrent hash set created
-[23Jul2022 23:07:44.824] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] TicketManagerTickets Transformer Called
-[23Jul2022 23:07:44.825] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] TicketManagerTickets Transformer Complete
-[23Jul2022 23:07:44.826] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] TicketManagerCollections Transformer Called
-[23Jul2022 23:07:44.826] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] TicketManagerCollections Hit Init
-[23Jul2022 23:07:44.827] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] toParallelHashSets Transforming
-[23Jul2022 23:07:44.827] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] TicketManagerCollections Transformer Complete
-[23Jul2022 23:07:44.889] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] LevelBasedGraph-UpdatesByLevel Transformer Called
-[23Jul2022 23:07:44.891] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] LevelBasedGraph-UpdatesByLevel Transformer Complete
-[23Jul2022 23:07:44.895] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] LevelBasedGraph-propagationLevels Transformer Called
-[23Jul2022 23:07:44.909] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] LevelBasedGraph-propagationLevels Transformer Complete
-[23Jul2022 23:07:44.910] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] LevelBasedGraph-scheduleUpdate Transformer Called
-[23Jul2022 23:07:44.910] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] LevelBasedGraph-scheduleUpdate Transformer Complete
-[23Jul2022 23:07:44.911] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] LevelBasedGraph-processUpdates Transformer Called
-[23Jul2022 23:07:44.912] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] LevelBasedGraph-processUpdates Transformer Complete
-[23Jul2022 23:07:44.922] [Server thread/INFO] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu it/unimi/dsi/fastutil/longs/LongLinkedOpenHashSet Transformer Called
-[23Jul2022 23:07:44.923] [Server thread/INFO] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu it/unimi/dsi/fastutil/longs/LongLinkedOpenHashSet Transformer Complete
-[23Jul2022 23:07:44.924] [Server thread/WARN] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu: you are missing it/unimi/dsi/fastutil/longs/LongLinkedOpenHashSet$SetIterator this may bite you later
-[23Jul2022 23:07:44.942] [Server thread/INFO] [org.jmt.mcmt.asmdest.ConcurrentCollections/]: Concurrent hash set created
-[23Jul2022 23:07:44.948] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] RegionSectionCache-data Transformer Called
-[23Jul2022 23:07:44.949] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] RegionSectionCache-data Transformer Complete
-[23Jul2022 23:07:44.952] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] RegionSectionCache-dirtySections Transformer Called
-[23Jul2022 23:07:44.954] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] RegionSectionCache-dirtySections Transformer Complete
-[23Jul2022 23:07:44.957] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] RegionSectionCache-data Transformer Called
-[23Jul2022 23:07:44.957] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] RegionSectionCache-data Transformer Complete
-[23Jul2022 23:07:44.957] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] RegionSectionCache-dirtySections Transformer Called
-[23Jul2022 23:07:44.958] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] RegionSectionCache-dirtySections Transformer Complete
-[23Jul2022 23:07:44.992] [Server thread/INFO] [org.jmt.mcmt.asmdest.ConcurrentCollections/]: Concurrent "array" deque created
-[23Jul2022 23:07:44.994] [Server thread/INFO] [org.jmt.mcmt.asmdest.ConcurrentCollections/]: Concurrent hash set created
-[23Jul2022 23:07:44.996] [Server thread/INFO] [org.jmt.mcmt.asmdest.ConcurrentCollections/]: Concurrent hash set created
-[23Jul2022 23:07:44.999] [Server thread/INFO] [org.jmt.mcmt.asmdest.ConcurrentCollections/]: Concurrent "array" deque created
-[23Jul2022 23:07:45.000] [Server thread/INFO] [org.jmt.mcmt.asmdest.ConcurrentCollections/]: Concurrent hash set created
-[23Jul2022 23:07:45.001] [Server thread/INFO] [org.jmt.mcmt.asmdest.ConcurrentCollections/]: Concurrent hash set created
-[23Jul2022 23:07:45.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[23Jul2022 23:07:45.094] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] TemplateManagerHashMap Transformer Called
-[23Jul2022 23:07:45.099] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] toParallelHashMaps Transforming
-[23Jul2022 23:07:45.100] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.jmt_mcmt/COREMODLOG]: [JMTSUPERTRANS] TemplateManagerHashMap Transformer Complete
-[23Jul2022 23:07:45.192] [Worker-Main-8/INFO] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu it/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap$MapEntrySet Transformer Called
-[23Jul2022 23:07:45.194] [Worker-Main-8/INFO] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu inner class of Lit/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap;
-[23Jul2022 23:07:45.195] [Worker-Main-8/INFO] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu it/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap$MapEntrySet InnerClass Transformer Complete
-[23Jul2022 23:07:45.198] [Worker-Main-8/INFO] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu it/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap$EntryIterator Transformer Called
-[23Jul2022 23:07:45.199] [Worker-Main-8/INFO] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu inner class of Lit/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap;
-[23Jul2022 23:07:45.202] [Worker-Main-8/INFO] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu it/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap$EntryIterator InnerClass Transformer Complete
-[23Jul2022 23:07:45.203] [Worker-Main-8/INFO] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu it/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap$MapIterator Transformer Called
-[23Jul2022 23:07:45.203] [Worker-Main-8/INFO] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu inner class of Lit/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap;
-[23Jul2022 23:07:45.204] [Worker-Main-8/INFO] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu it/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap$MapIterator InnerClass Transformer Complete
-[23Jul2022 23:07:45.311] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[23Jul2022 23:07:45.520] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[23Jul2022 23:07:46.063] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[23Jul2022 23:07:47.480] [Worker-Main-14/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[23Jul2022 23:07:47.481] [Worker-Main-14/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[23Jul2022 23:07:47.554] [Worker-Main-9/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[23Jul2022 23:07:48.019] [Worker-Main-8/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[23Jul2022 23:07:48.520] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[23Jul2022 23:07:49.024] [Worker-Main-14/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 92%
-[23Jul2022 23:07:49.372] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 4354 ms
-[23Jul2022 23:07:49.373] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (4.610s)! For help, type "help"
-[23Jul2022 23:07:49.377] [Server thread/INFO] [org.jmt.mcmt.MCMT/]: MCMT Initialising Server...
-[23Jul2022 23:07:49.377] [Server thread/INFO] [org.jmt.mcmt.MCMT/]: MCMT Setting up threadpool...
-[23Jul2022 23:07:49.385] [MCMT-Pool-Thread-0/INFO] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu it/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap$FastEntryIterator Transformer Called
-[23Jul2022 23:07:49.385] [MCMT-Pool-Thread-0/INFO] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu inner class of Lit/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap;
-[23Jul2022 23:07:49.385] [MCMT-Pool-Thread-0/INFO] [org.jmt.mcmt.modlauncher.FastUtilTransformerService/JMTSUPERTRANS]: sync_fu it/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap$FastEntryIterator InnerClass Transformer Complete
-[23Jul2022 23:10:11.416] [MCMT Stats Thread/WARN] [MCMT Dev Warning/]: MCMT is installed; error logs are likely invalid for any other mods
-[23Jul2022 23:10:41.432] [MCMT Stats Thread/WARN] [MCMT Dev Warning/]: MCMT is installed; error logs are likely invalid for any other mods
-[23Jul2022 23:11:17.642] [MCMT Stats Thread/WARN] [MCMT Dev Warning/]: MCMT is installed; error logs are likely invalid for any other mods
-[23Jul2022 23:11:36.936] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@168dfd8[id=<null>,name=sanket,properties={},legacy=false] (/192.168.1.206:56075) lost connection: Disconnected
-[23Jul2022 23:11:40.481] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@5e2fed98[id=<null>,name=sanket,properties={},legacy=false] (/192.168.1.206:56076) lost connection: Disconnected
-[23Jul2022 23:12:02.452] [MCMT Stats Thread/WARN] [MCMT Dev Warning/]: MCMT is installed; error logs are likely invalid for any other mods
-[23Jul2022 23:12:54.306] [MCMT Stats Thread/WARN] [MCMT Dev Warning/]: MCMT is installed; error logs are likely invalid for any other mods
-[23Jul2022 23:13:56.524] [MCMT Stats Thread/WARN] [MCMT Dev Warning/]: MCMT is installed; error logs are likely invalid for any other mods
-[23Jul2022 23:15:11.182] [MCMT Stats Thread/WARN] [MCMT Dev Warning/]: MCMT is installed; error logs are likely invalid for any other mods
-[23Jul2022 23:16:32.180] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@5a239a78[id=<null>,name=sanket,properties={},legacy=false] (/192.168.1.206:56215) lost connection: Disconnected
-[23Jul2022 23:16:40.774] [MCMT Stats Thread/WARN] [MCMT Dev Warning/]: MCMT is installed; error logs are likely invalid for any other mods
-[23Jul2022 23:18:28.300] [MCMT Stats Thread/WARN] [MCMT Dev Warning/]: MCMT is installed; error logs are likely invalid for any other mods
-[23Jul2022 23:20:37.318] [MCMT Stats Thread/WARN] [MCMT Dev Warning/]: MCMT is installed; error logs are likely invalid for any other mods
-[23Jul2022 23:23:12.154] [MCMT Stats Thread/WARN] [MCMT Dev Warning/]: MCMT is installed; error logs are likely invalid for any other mods
-[23Jul2022 23:26:17.967] [MCMT Stats Thread/WARN] [MCMT Dev Warning/]: MCMT is installed; error logs are likely invalid for any other mods
-[23Jul2022 23:30:00.929] [MCMT Stats Thread/WARN] [MCMT Dev Warning/]: MCMT is installed; error logs are likely invalid for any other mods
-[23Jul2022 23:34:31.127] [MCMT Stats Thread/WARN] [MCMT Dev Warning/]: MCMT is installed; error logs are likely invalid for any other mods
-[23Jul2022 23:39:52.193] [MCMT Stats Thread/WARN] [MCMT Dev Warning/]: MCMT is installed; error logs are likely invalid for any other mods
+[24Jul2022 00:58:19.079] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.35, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
+[24Jul2022 00:58:19.081] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 1.8.0_51 by Oracle Corporation
+[24Jul2022 00:58:19.094] [main/WARN] [cpw.mods.modlauncher.SecureJarHandler/]: LEGACY JDK DETECTED, SECURED JAR HANDLING DISABLED
+[24Jul2022 00:58:19.262] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[24Jul2022 00:58:19.291] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/C:/Users/USER/Desktop/Minecraft-Servers/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[24Jul2022 00:58:20.243] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.performant.coremod.mixin.Connector]
+[24Jul2022 00:58:20.244] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[24Jul2022 00:58:20.280] [main/INFO] [com.performant.coremod.Performant/]: Performant configs loaded
+[24Jul2022 00:58:20.504] [main/INFO] [com.performant.coremod.Performant/]: Not enabling mixin forcom.performant.coremod.mixin.forge.BasicEventHooksMixin as config disables it.
+[24Jul2022 00:58:20.507] [main/INFO] [com.performant.coremod.Performant/]: Not enabling mixin forcom.performant.coremod.mixin.world.WorldMixin as config disables it.
+[24Jul2022 00:58:20.519] [main/INFO] [com.performant.coremod.Performant/]: Not enabling mixin forcom.performant.coremod.mixin.entity.LivingEntityUpdateEventMixin as config disables it.
+[24Jul2022 00:58:21.756] [main/INFO] [FerriteCore - class definer/]: Using Java 8 class definer
+[24Jul2022 00:58:24.713] [modloading-worker-9/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.35, for MC 1.16.5 with MCP 20210115.111550
+[24Jul2022 00:58:24.727] [modloading-worker-9/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.35 Initialized
+[24Jul2022 00:58:25.897] [main/WARN] [mixin/]: @Final field field_187234_c:Ljava/util/Map; in performant.mixins.json:entity.EntityDataManagerMixin should be final
+[24Jul2022 00:58:25.958] [modloading-worker-10/INFO] [net.minecraft.world.biome.Biome/]: Performant2 loaded, lag begone!
+[24Jul2022 00:58:25.983] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://maxhenkel.de/update/voicechat.json
+[24Jul2022 00:58:25.993] [modloading-worker-15/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[24Jul2022 00:58:25.994] [main/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[24Jul2022 00:58:26.154] [modloading-worker-12/INFO] [me.ichun.mods.morph.common.Morph/]: Loaded 35 NBT Modifier(s)
+[24Jul2022 00:58:26.255] [modloading-worker-12/INFO] [me.ichun.mods.morph.common.Morph/]: Loaded 69 Mob Data(s) from 169 files
+[24Jul2022 00:58:27.617] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[24Jul2022 00:58:27.777] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:jmt_mcmt
+[24Jul2022 00:58:28.101] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [morph, resources] and [morph, player] with inputs: [resources]
+[24Jul2022 00:58:28.106] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[24Jul2022 00:58:28.107] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[24Jul2022 00:58:28.110] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[24Jul2022 00:58:28.111] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[24Jul2022 00:58:28.112] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[24Jul2022 00:58:28.116] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.35-universal.jar, performant-1.16.2-5-3.98m.jar, ferritecore-2.1.0-forge.jar, iChunUtil-1.16.5-10.6.1.jar, voicechat-forge-1.16.5-1.7.7.jar, TTIGRAAS_BETA_v.1.7.1.jar, Xaeros_Minimap_22.10.0_Forge_1.16.5.jar, appleskin-forge-mc1.16.x-2.1.0.jar, Morph-1.16.5-10.2.0.jar, jei-1.16.5-7.7.1.118.jar, tl_skin_cape_forge_1.16.5-1.19.jar
+[24Jul2022 00:58:28.394] [Worker-Main-14/ERROR] [net.minecraft.client.resources.JsonReloadListener/]: Couldn't parse data file ttigraas:rawmagicshard from ttigraas:recipes/rawmagicshard.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.util.JSONUtils.func_188173_a(SourceFile:495) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_193839_a(SourceFile:532) ~[?:?]
+	at net.minecraft.client.resources.JsonReloadListener.func_212854_a_(JsonReloadListener.java:48) [?:?]
+	at net.minecraft.client.resources.JsonReloadListener.func_212854_a_(JsonReloadListener.java:22) [?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215270_b(SourceFile:11) [?:?]
+	at net.minecraft.client.resources.ReloadListener$$Lambda$5335/1397143127.get(Unknown Source) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_51]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_51]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_51]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_51]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_51]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_51]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1393) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:549) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:425) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:716) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:714) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:910) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraft.util.JSONUtils.func_188173_a(SourceFile:493) ~[?:?]
+	... 11 more
+[24Jul2022 00:58:28.483] [Worker-Main-13/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load item tag minecraft:boots as it is missing following references: ttigraas:armorsaurus_armor_boots (from Default),ttigraas:armorsaurus_armor_boots (from TTIGRAAS_BETA_v.1.7.1.jar)
+[24Jul2022 00:58:28.483] [Worker-Main-13/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load item tag minecraft:chestplace as it is missing following references: ttigraas:armorsaurus_armor_chestplate (from Default),ttigraas:armorsaurus_armor_chestplate (from TTIGRAAS_BETA_v.1.7.1.jar)
+[24Jul2022 00:58:28.485] [Worker-Main-13/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load item tag minecraft:leggings as it is missing following references: ttigraas:armorsaurus_armor_leggings (from Default),ttigraas:armorsaurus_armor_leggings (from TTIGRAAS_BETA_v.1.7.1.jar)
+[24Jul2022 00:58:28.485] [Worker-Main-13/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load item tag minecraft:helmet as it is missing following references: ttigraas:armorsaurus_armor_helmet (from Default),ttigraas:scalemail_helmet (from Default),ttigraas:armorsaurus_armor_helmet (from TTIGRAAS_BETA_v.1.7.1.jar),ttigraas:scalemail_helmet (from TTIGRAAS_BETA_v.1.7.1.jar)
+[24Jul2022 00:58:28.487] [Worker-Main-13/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load entity_type tag minecraft:hostile_mob as it is missing following references: ttigraas:orc_disaster (from Default),ttigraas:orc_disaster (from TTIGRAAS_BETA_v.1.7.1.jar)
+[24Jul2022 00:58:28.487] [Worker-Main-13/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load entity_type tag minecraft:tensura_mobs as it is missing following references: ttigraas:orc_disaster (from Default),ttigraas:orc_disaster (from TTIGRAAS_BETA_v.1.7.1.jar)
+[24Jul2022 00:58:28.488] [Worker-Main-13/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load entity_type tag minecraft:mob_cant_be_threaded as it is missing following references: ttigraas:orc_disaster (from Default),ttigraas:orc_disaster (from TTIGRAAS_BETA_v.1.7.1.jar)
+[24Jul2022 00:58:28.530] [Worker-Main-13/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
+[24Jul2022 00:58:29.019] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.lang.NullPointerException: null
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:160) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1$$Lambda$4153/827326768.accept(Unknown Source) [?:?]
+	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_51]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:128) [?:?]
+[24Jul2022 00:58:29.020] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[24Jul2022 00:58:29.057] [Worker-Main-13/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1044 advancements
+[24Jul2022 00:58:29.632] [main/ERROR] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: This world was saved with mod jmt_mcmt which appears to be missing, things may not work well
+[24Jul2022 00:58:29.945] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 36.2.35 Target: 36.2.39
+[24Jul2022 00:58:30.313] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[24Jul2022 00:58:30.314] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[24Jul2022 00:58:30.316] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[24Jul2022 00:58:30.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[24Jul2022 00:58:30.363] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[24Jul2022 00:58:30.369] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
+[24Jul2022 00:58:30.592] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[24Jul2022 00:58:30.592] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[24Jul2022 00:58:30.593] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[24Jul2022 00:58:30.595] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[24Jul2022 00:58:30.668] [Server thread/INFO] [me.ichun.mods.morph.common.Morph/]: Loaded 3 Biomass Upgrade(s)
+[24Jul2022 00:58:30.680] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[24Jul2022 00:58:30.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[24Jul2022 00:58:31.130] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[24Jul2022 00:58:31.367] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[24Jul2022 00:58:32.261] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 46%
+[24Jul2022 00:58:33.526] [Worker-Main-14/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[24Jul2022 00:58:33.527] [Worker-Main-10/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[24Jul2022 00:58:33.527] [Worker-Main-11/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[24Jul2022 00:58:33.722] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 2855 ms
+[24Jul2022 00:58:33.724] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.110s)! For help, type "help"
+[24Jul2022 00:58:33.739] [VoiceChatServerThread/INFO] [voicechat/]: Server started at port 24454
+[24Jul2022 00:58:44.837] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@b4091cb
+[24Jul2022 00:58:44.852] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: sanket[/192.168.1.206:57449] logged in with entity id 127 at (-100.26925656988041, 63.0, -52.69999998807907)
+[24Jul2022 00:58:44.870] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sanket joined the game
+[24Jul2022 00:58:44.930] [Server thread/INFO] [voicechat/]: Sent secret to sanket
+[24Jul2022 00:58:46.780] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: Successfully authenticated player 20a9d56e-8db8-3001-8303-bb1c4103f337
+[24Jul2022 01:01:47.891] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Tried to add entity ttigraas:otherworlder but it was marked as removed already
+[24Jul2022 01:01:50.895] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sanket has made the advancement [Acquire Hardware]
+[24Jul2022 01:02:55.595] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sanket was blown up by Creeper
+[24Jul2022 01:03:21.738] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: sanket lost connection: Disconnected
+[24Jul2022 01:03:21.738] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sanket left the game
+[24Jul2022 01:03:21.739] [Server thread/INFO] [voicechat/]: Disconnecting client sanket
+[24Jul2022 01:03:40.303] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@2903a89a
+[24Jul2022 01:03:40.311] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: sanket[/192.168.1.206:57473] logged in with entity id 753 at (-17.703069973033045, 77.0, -106.44100996107082)
+[24Jul2022 01:03:40.313] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sanket joined the game
+[24Jul2022 01:03:40.332] [Server thread/INFO] [voicechat/]: Sent secret to sanket
+[24Jul2022 01:03:40.998] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: Successfully authenticated player 20a9d56e-8db8-3001-8303-bb1c4103f337
+[24Jul2022 01:04:34.491] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sanket was blown up by Creeper
+[24Jul2022 01:06:17.207] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sanket was doomed to fall by Skeleton
+[24Jul2022 01:06:20.488] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: sanket lost connection: Disconnected
+[24Jul2022 01:06:20.488] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sanket left the game
+[24Jul2022 01:06:20.489] [Server thread/INFO] [voicechat/]: Disconnecting client sanket
