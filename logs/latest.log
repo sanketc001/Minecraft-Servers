@@ -1,41 +1,48 @@
-[24Jul2022 00:58:19.079] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.35, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
-[24Jul2022 00:58:19.081] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 1.8.0_51 by Oracle Corporation
-[24Jul2022 00:58:19.094] [main/WARN] [cpw.mods.modlauncher.SecureJarHandler/]: LEGACY JDK DETECTED, SECURED JAR HANDLING DISABLED
-[24Jul2022 00:58:19.262] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[24Jul2022 00:58:19.291] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/C:/Users/USER/Desktop/Minecraft-Servers/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
-[24Jul2022 00:58:20.243] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.performant.coremod.mixin.Connector]
-[24Jul2022 00:58:20.244] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
-[24Jul2022 00:58:20.280] [main/INFO] [com.performant.coremod.Performant/]: Performant configs loaded
-[24Jul2022 00:58:20.504] [main/INFO] [com.performant.coremod.Performant/]: Not enabling mixin forcom.performant.coremod.mixin.forge.BasicEventHooksMixin as config disables it.
-[24Jul2022 00:58:20.507] [main/INFO] [com.performant.coremod.Performant/]: Not enabling mixin forcom.performant.coremod.mixin.world.WorldMixin as config disables it.
-[24Jul2022 00:58:20.519] [main/INFO] [com.performant.coremod.Performant/]: Not enabling mixin forcom.performant.coremod.mixin.entity.LivingEntityUpdateEventMixin as config disables it.
-[24Jul2022 00:58:21.756] [main/INFO] [FerriteCore - class definer/]: Using Java 8 class definer
-[24Jul2022 00:58:24.713] [modloading-worker-9/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.35, for MC 1.16.5 with MCP 20210115.111550
-[24Jul2022 00:58:24.727] [modloading-worker-9/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.35 Initialized
-[24Jul2022 00:58:25.897] [main/WARN] [mixin/]: @Final field field_187234_c:Ljava/util/Map; in performant.mixins.json:entity.EntityDataManagerMixin should be final
-[24Jul2022 00:58:25.958] [modloading-worker-10/INFO] [net.minecraft.world.biome.Biome/]: Performant2 loaded, lag begone!
-[24Jul2022 00:58:25.983] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://maxhenkel.de/update/voicechat.json
-[24Jul2022 00:58:25.993] [modloading-worker-15/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[24Jul2022 00:58:25.994] [main/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[24Jul2022 00:58:26.154] [modloading-worker-12/INFO] [me.ichun.mods.morph.common.Morph/]: Loaded 35 NBT Modifier(s)
-[24Jul2022 00:58:26.255] [modloading-worker-12/INFO] [me.ichun.mods.morph.common.Morph/]: Loaded 69 Mob Data(s) from 169 files
-[24Jul2022 00:58:27.617] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[24Jul2022 00:58:27.777] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:jmt_mcmt
-[24Jul2022 00:58:28.101] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [morph, resources] and [morph, player] with inputs: [resources]
-[24Jul2022 00:58:28.106] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[24Jul2022 00:58:28.107] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[24Jul2022 00:58:28.110] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[24Jul2022 00:58:28.111] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[24Jul2022 00:58:28.112] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[24Jul2022 00:58:28.116] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.35-universal.jar, performant-1.16.2-5-3.98m.jar, ferritecore-2.1.0-forge.jar, iChunUtil-1.16.5-10.6.1.jar, voicechat-forge-1.16.5-1.7.7.jar, TTIGRAAS_BETA_v.1.7.1.jar, Xaeros_Minimap_22.10.0_Forge_1.16.5.jar, appleskin-forge-mc1.16.x-2.1.0.jar, Morph-1.16.5-10.2.0.jar, jei-1.16.5-7.7.1.118.jar, tl_skin_cape_forge_1.16.5-1.19.jar
-[24Jul2022 00:58:28.394] [Worker-Main-14/ERROR] [net.minecraft.client.resources.JsonReloadListener/]: Couldn't parse data file ttigraas:rawmagicshard from ttigraas:recipes/rawmagicshard.json
+[30Jul2022 23:18:35.222] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.35, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
+[30Jul2022 23:18:35.230] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 1.8.0_51 by Oracle Corporation
+[30Jul2022 23:18:35.244] [main/WARN] [cpw.mods.modlauncher.SecureJarHandler/]: LEGACY JDK DETECTED, SECURED JAR HANDLING DISABLED
+[30Jul2022 23:18:35.648] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[30Jul2022 23:18:35.686] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/C:/Users/USER/Desktop/Minecraft-Servers/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[30Jul2022 23:18:36.693] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.performant.coremod.mixin.Connector]
+[30Jul2022 23:18:36.695] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[30Jul2022 23:18:36.740] [main/INFO] [com.performant.coremod.Performant/]: Performant configs loaded
+[30Jul2022 23:18:36.984] [main/INFO] [com.performant.coremod.Performant/]: Not enabling mixin forcom.performant.coremod.mixin.forge.BasicEventHooksMixin as config disables it.
+[30Jul2022 23:18:36.986] [main/INFO] [com.performant.coremod.Performant/]: Not enabling mixin forcom.performant.coremod.mixin.world.WorldMixin as config disables it.
+[30Jul2022 23:18:36.996] [main/INFO] [com.performant.coremod.Performant/]: Not enabling mixin forcom.performant.coremod.mixin.entity.LivingEntityUpdateEventMixin as config disables it.
+[30Jul2022 23:18:38.328] [main/INFO] [FerriteCore - class definer/]: Using Java 8 class definer
+[30Jul2022 23:18:41.298] [modloading-worker-15/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.35, for MC 1.16.5 with MCP 20210115.111550
+[30Jul2022 23:18:41.362] [modloading-worker-15/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.35 Initialized
+[30Jul2022 23:18:42.542] [main/WARN] [mixin/]: @Final field field_187234_c:Ljava/util/Map; in performant.mixins.json:entity.EntityDataManagerMixin should be final
+[30Jul2022 23:18:42.607] [modloading-worker-3/INFO] [net.minecraft.world.biome.Biome/]: Performant2 loaded, lag begone!
+[30Jul2022 23:18:42.640] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://maxhenkel.de/update/voicechat.json
+[30Jul2022 23:18:42.647] [modloading-worker-4/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[30Jul2022 23:18:42.652] [main/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[30Jul2022 23:18:43.291] [modloading-worker-11/INFO] [me.ichun.mods.morph.common.Morph/]: Loaded 35 NBT Modifier(s)
+[30Jul2022 23:18:44.004] [modloading-worker-11/INFO] [me.ichun.mods.morph.common.Morph/]: Loaded 69 Mob Data(s) from 169 files
+[30Jul2022 23:18:45.328] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[30Jul2022 23:18:45.715] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.lang.NullPointerException: null
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:160) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1$$Lambda$4155/1908054341.accept(Unknown Source) [?:?]
+	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_51]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:128) [?:?]
+[30Jul2022 23:18:45.726] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[30Jul2022 23:18:45.810] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [morph, resources] and [morph, player] with inputs: [resources]
+[30Jul2022 23:18:45.816] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[30Jul2022 23:18:45.818] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[30Jul2022 23:18:45.821] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[30Jul2022 23:18:45.822] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[30Jul2022 23:18:45.823] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[30Jul2022 23:18:45.828] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.35-universal.jar, performant-1.16.2-5-3.98m.jar, ferritecore-2.1.0-forge.jar, iChunUtil-1.16.5-10.6.1.jar, voicechat-forge-1.16.5-1.7.7.jar, TTIGRAAS_BETA_v.1.7.1.jar, Xaeros_Minimap_22.10.0_Forge_1.16.5.jar, appleskin-forge-mc1.16.x-2.1.0.jar, Morph-1.16.5-10.2.0.jar, jei-1.16.5-7.7.1.118.jar, tl_skin_cape_forge_1.16.5-1.19.jar
+[30Jul2022 23:18:46.143] [Worker-Main-12/ERROR] [net.minecraft.client.resources.JsonReloadListener/]: Couldn't parse data file ttigraas:rawmagicshard from ttigraas:recipes/rawmagicshard.json
 com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
 	at net.minecraft.util.JSONUtils.func_188173_a(SourceFile:495) ~[?:?]
 	at net.minecraft.util.JSONUtils.func_193839_a(SourceFile:532) ~[?:?]
 	at net.minecraft.client.resources.JsonReloadListener.func_212854_a_(JsonReloadListener.java:48) [?:?]
 	at net.minecraft.client.resources.JsonReloadListener.func_212854_a_(JsonReloadListener.java:22) [?:?]
 	at net.minecraft.client.resources.ReloadListener.func_215270_b(SourceFile:11) [?:?]
-	at net.minecraft.client.resources.ReloadListener$$Lambda$5335/1397143127.get(Unknown Source) [?:?]
+	at net.minecraft.client.resources.ReloadListener$$Lambda$5322/1397143127.get(Unknown Source) [?:?]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_51]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_51]
 	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_51]
@@ -51,65 +58,32 @@ Caused by: java.io.EOFException: End of input at line 1 column 1 path $
 	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:910) ~[server-1.16.5-20210115.111550-extra.jar:?]
 	at net.minecraft.util.JSONUtils.func_188173_a(SourceFile:493) ~[?:?]
 	... 11 more
-[24Jul2022 00:58:28.483] [Worker-Main-13/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load item tag minecraft:boots as it is missing following references: ttigraas:armorsaurus_armor_boots (from Default),ttigraas:armorsaurus_armor_boots (from TTIGRAAS_BETA_v.1.7.1.jar)
-[24Jul2022 00:58:28.483] [Worker-Main-13/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load item tag minecraft:chestplace as it is missing following references: ttigraas:armorsaurus_armor_chestplate (from Default),ttigraas:armorsaurus_armor_chestplate (from TTIGRAAS_BETA_v.1.7.1.jar)
-[24Jul2022 00:58:28.485] [Worker-Main-13/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load item tag minecraft:leggings as it is missing following references: ttigraas:armorsaurus_armor_leggings (from Default),ttigraas:armorsaurus_armor_leggings (from TTIGRAAS_BETA_v.1.7.1.jar)
-[24Jul2022 00:58:28.485] [Worker-Main-13/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load item tag minecraft:helmet as it is missing following references: ttigraas:armorsaurus_armor_helmet (from Default),ttigraas:scalemail_helmet (from Default),ttigraas:armorsaurus_armor_helmet (from TTIGRAAS_BETA_v.1.7.1.jar),ttigraas:scalemail_helmet (from TTIGRAAS_BETA_v.1.7.1.jar)
-[24Jul2022 00:58:28.487] [Worker-Main-13/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load entity_type tag minecraft:hostile_mob as it is missing following references: ttigraas:orc_disaster (from Default),ttigraas:orc_disaster (from TTIGRAAS_BETA_v.1.7.1.jar)
-[24Jul2022 00:58:28.487] [Worker-Main-13/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load entity_type tag minecraft:tensura_mobs as it is missing following references: ttigraas:orc_disaster (from Default),ttigraas:orc_disaster (from TTIGRAAS_BETA_v.1.7.1.jar)
-[24Jul2022 00:58:28.488] [Worker-Main-13/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load entity_type tag minecraft:mob_cant_be_threaded as it is missing following references: ttigraas:orc_disaster (from Default),ttigraas:orc_disaster (from TTIGRAAS_BETA_v.1.7.1.jar)
-[24Jul2022 00:58:28.530] [Worker-Main-13/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
-[24Jul2022 00:58:29.019] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
-java.lang.NullPointerException: null
-	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:160) ~[?:?]
-	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) [?:?]
-	at net.minecraftforge.fml.VersionChecker$1$$Lambda$4153/827326768.accept(Unknown Source) [?:?]
-	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_51]
-	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:128) [?:?]
-[24Jul2022 00:58:29.020] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[24Jul2022 00:58:29.057] [Worker-Main-13/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1044 advancements
-[24Jul2022 00:58:29.632] [main/ERROR] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: This world was saved with mod jmt_mcmt which appears to be missing, things may not work well
-[24Jul2022 00:58:29.945] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 36.2.35 Target: 36.2.39
-[24Jul2022 00:58:30.313] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
-[24Jul2022 00:58:30.314] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[24Jul2022 00:58:30.316] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[24Jul2022 00:58:30.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[24Jul2022 00:58:30.363] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[24Jul2022 00:58:30.369] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
-[24Jul2022 00:58:30.592] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[24Jul2022 00:58:30.592] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[24Jul2022 00:58:30.593] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[24Jul2022 00:58:30.595] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[24Jul2022 00:58:30.668] [Server thread/INFO] [me.ichun.mods.morph.common.Morph/]: Loaded 3 Biomass Upgrade(s)
-[24Jul2022 00:58:30.680] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[24Jul2022 00:58:30.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[24Jul2022 00:58:31.130] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[24Jul2022 00:58:31.367] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[24Jul2022 00:58:32.261] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 46%
-[24Jul2022 00:58:33.526] [Worker-Main-14/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[24Jul2022 00:58:33.527] [Worker-Main-10/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[24Jul2022 00:58:33.527] [Worker-Main-11/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[24Jul2022 00:58:33.722] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 2855 ms
-[24Jul2022 00:58:33.724] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.110s)! For help, type "help"
-[24Jul2022 00:58:33.739] [VoiceChatServerThread/INFO] [voicechat/]: Server started at port 24454
-[24Jul2022 00:58:44.837] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@b4091cb
-[24Jul2022 00:58:44.852] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: sanket[/192.168.1.206:57449] logged in with entity id 127 at (-100.26925656988041, 63.0, -52.69999998807907)
-[24Jul2022 00:58:44.870] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sanket joined the game
-[24Jul2022 00:58:44.930] [Server thread/INFO] [voicechat/]: Sent secret to sanket
-[24Jul2022 00:58:46.780] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: Successfully authenticated player 20a9d56e-8db8-3001-8303-bb1c4103f337
-[24Jul2022 01:01:47.891] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Tried to add entity ttigraas:otherworlder but it was marked as removed already
-[24Jul2022 01:01:50.895] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sanket has made the advancement [Acquire Hardware]
-[24Jul2022 01:02:55.595] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sanket was blown up by Creeper
-[24Jul2022 01:03:21.738] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: sanket lost connection: Disconnected
-[24Jul2022 01:03:21.738] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sanket left the game
-[24Jul2022 01:03:21.739] [Server thread/INFO] [voicechat/]: Disconnecting client sanket
-[24Jul2022 01:03:40.303] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@2903a89a
-[24Jul2022 01:03:40.311] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: sanket[/192.168.1.206:57473] logged in with entity id 753 at (-17.703069973033045, 77.0, -106.44100996107082)
-[24Jul2022 01:03:40.313] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sanket joined the game
-[24Jul2022 01:03:40.332] [Server thread/INFO] [voicechat/]: Sent secret to sanket
-[24Jul2022 01:03:40.998] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: Successfully authenticated player 20a9d56e-8db8-3001-8303-bb1c4103f337
-[24Jul2022 01:04:34.491] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sanket was blown up by Creeper
-[24Jul2022 01:06:17.207] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sanket was doomed to fall by Skeleton
-[24Jul2022 01:06:20.488] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: sanket lost connection: Disconnected
-[24Jul2022 01:06:20.488] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sanket left the game
-[24Jul2022 01:06:20.489] [Server thread/INFO] [voicechat/]: Disconnecting client sanket
+[30Jul2022 23:18:46.251] [Worker-Main-10/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load item tag minecraft:boots as it is missing following references: ttigraas:armorsaurus_armor_boots (from Default),ttigraas:armorsaurus_armor_boots (from TTIGRAAS_BETA_v.1.7.1.jar)
+[30Jul2022 23:18:46.251] [Worker-Main-10/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load item tag minecraft:chestplace as it is missing following references: ttigraas:armorsaurus_armor_chestplate (from Default),ttigraas:armorsaurus_armor_chestplate (from TTIGRAAS_BETA_v.1.7.1.jar)
+[30Jul2022 23:18:46.253] [Worker-Main-10/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load item tag minecraft:leggings as it is missing following references: ttigraas:armorsaurus_armor_leggings (from Default),ttigraas:armorsaurus_armor_leggings (from TTIGRAAS_BETA_v.1.7.1.jar)
+[30Jul2022 23:18:46.253] [Worker-Main-10/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load item tag minecraft:helmet as it is missing following references: ttigraas:armorsaurus_armor_helmet (from Default),ttigraas:scalemail_helmet (from Default),ttigraas:armorsaurus_armor_helmet (from TTIGRAAS_BETA_v.1.7.1.jar),ttigraas:scalemail_helmet (from TTIGRAAS_BETA_v.1.7.1.jar)
+[30Jul2022 23:18:46.254] [Worker-Main-10/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load entity_type tag minecraft:hostile_mob as it is missing following references: ttigraas:orc_disaster (from Default),ttigraas:orc_disaster (from TTIGRAAS_BETA_v.1.7.1.jar)
+[30Jul2022 23:18:46.254] [Worker-Main-10/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load entity_type tag minecraft:tensura_mobs as it is missing following references: ttigraas:orc_disaster (from Default),ttigraas:orc_disaster (from TTIGRAAS_BETA_v.1.7.1.jar)
+[30Jul2022 23:18:46.255] [Worker-Main-10/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load entity_type tag minecraft:mob_cant_be_threaded as it is missing following references: ttigraas:orc_disaster (from Default),ttigraas:orc_disaster (from TTIGRAAS_BETA_v.1.7.1.jar)
+[30Jul2022 23:18:46.318] [Worker-Main-10/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
+[30Jul2022 23:18:46.628] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 36.2.35 Target: 36.2.39
+[30Jul2022 23:18:46.819] [Worker-Main-10/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1044 advancements
+[30Jul2022 23:18:48.009] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[30Jul2022 23:18:48.009] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[30Jul2022 23:18:48.009] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[30Jul2022 23:18:48.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[30Jul2022 23:18:48.095] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[30Jul2022 23:18:48.102] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
+[30Jul2022 23:18:48.329] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[30Jul2022 23:18:48.329] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[30Jul2022 23:18:48.330] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[30Jul2022 23:18:48.331] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[30Jul2022 23:18:48.402] [Server thread/INFO] [me.ichun.mods.morph.common.Morph/]: Loaded 3 Biomass Upgrade(s)
+[30Jul2022 23:18:48.414] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[30Jul2022 23:18:48.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[30Jul2022 23:18:48.787] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[30Jul2022 23:18:49.096] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[30Jul2022 23:18:49.855] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 11%
+[30Jul2022 23:18:49.962] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 1367 ms
+[30Jul2022 23:18:49.964] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (1.617s)! For help, type "help"
+[30Jul2022 23:18:49.980] [VoiceChatServerThread/INFO] [voicechat/]: Server started at port 24454
